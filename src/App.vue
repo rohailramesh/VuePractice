@@ -3,15 +3,18 @@
     data="Rohail Ramesh"
     message="This is the homepage to my website."
   />
+  <ContactPage username="ec21488" />
 </template>
 
 <script>
 import HomePage from "./components/HomePage.vue";
+import ContactPage from "./components/ContactPage.vue";
 
 export default {
   name: "App",
   components: {
     HomePage,
+    ContactPage,
   },
 };
 </script>
